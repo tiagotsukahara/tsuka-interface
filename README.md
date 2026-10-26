@@ -1,18 +1,23 @@
-# Interface Tsuka
+# Tsuka Interface
 
-[**Baixar o atualizador para Windows**](https://github.com/tiagotsukahara/tsuka-interface/releases/latest/download/TsukaUpdater.exe)
+[**Baixar Tsuka Interface para Windows**](https://github.com/tiagotsukahara/tsuka-interface/releases/latest/download/TsukaUpdater.exe)
 
 ## Instalar ou atualizar
 
 1. Feche o Lineage 2.
 2. Baixe `TsukaUpdater.exe` e coloque na raiz do seu cliente Interlude, ao lado da pasta `system` (fora dela).
-3. Abra o atualizador. Ele detecta a pasta onde esta e verifica os arquivos automaticamente.
-4. Confira a lista de arquivos ausentes ou diferentes e o tamanho do download.
-5. Clique em **Atualizar** quando quiser instalar. A verificacao inicial nao baixa nem substitui os arquivos do jogo.
+3. Abra **Tsuka Interface**. Ele detecta a pasta onde esta e verifica os arquivos automaticamente.
+4. Se quiser, escolha a animacao do soulshot (**Ativada/Desativada**) e a cor do toggle (**Roxo/Branco/Amarelo**).
+5. Confira a lista de arquivos ausentes ou diferentes e o tamanho do download.
+6. Clique em **Atualizar** quando quiser instalar. A verificacao inicial e a troca das opcoes nao baixam nem substituem os arquivos do jogo.
 
 O programa baixa somente os arquivos ausentes ou diferentes. Nao precisa baixar
 novamente toda a interface a cada atualizacao. Nao e necessario ter conta no
 GitHub ou instalar o MEGA.
+
+A cor do toggle vale para os indicadores de skills e soulshot. As opcoes ja
+instaladas sao reconhecidas ao abrir. **Manter atual / padrao** preserva uma
+variante personalizada e usa o padrao publicado apenas se o arquivo faltar.
 
 Arquivos `.ini` ja existentes, incluindo as preferencias e posicoes das janelas,
 sao preservados. Os arquivos substituidos ficam guardados em `.tsuka-updater`
