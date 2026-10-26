@@ -5,9 +5,10 @@
 ## Instalar ou atualizar
 
 1. Feche o Lineage 2.
-2. Baixe e abra `TsukaUpdater.exe`.
-3. Escolha a pasta do seu cliente Interlude: a pasta que contem `system`, e nao a propria `system`.
-4. Clique em **Verificar** e depois em **Atualizar**.
+2. Baixe `TsukaUpdater.exe` e coloque na raiz do seu cliente Interlude, ao lado da pasta `system` (fora dela).
+3. Abra o atualizador. Ele detecta a pasta onde esta e verifica os arquivos automaticamente.
+4. Confira a lista de arquivos ausentes ou diferentes e o tamanho do download.
+5. Clique em **Atualizar** quando quiser instalar. A verificacao inicial nao baixa nem substitui os arquivos do jogo.
 
 O programa baixa somente os arquivos ausentes ou diferentes. Nao precisa baixar
 novamente toda a interface a cada atualizacao. Nao e necessario ter conta no
@@ -20,5 +21,10 @@ dentro do cliente. Um `.ini` que ainda nao existe recebe a configuracao padrao.
 O atualizador requer Windows com .NET Framework 4.8 (normalmente presente no
 Windows 10/11). Se o proprio atualizador receber uma nova versao, baixe novamente
 o EXE pelo mesmo link. As atualizacoes da interface sao verificadas dentro dele.
+
+O executavel ainda nao tem assinatura digital de um editor validado. Por ser um
+programa novo distribuido fora da Microsoft Store, pode apresentar o alerta de
+reputacao do SmartScreen. Nao e necessario desativar a protecao do Windows.
+O mesmo EXE e mantido nas publicacoes que alteram somente a interface do jogo.
 
 [Ver versoes publicadas](https://github.com/tiagotsukahara/tsuka-interface/releases)
