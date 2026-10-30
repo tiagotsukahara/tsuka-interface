@@ -19,9 +19,11 @@ A cor do toggle vale para os indicadores de skills e soulshot. As opcoes ja
 instaladas sao reconhecidas ao abrir. **Manter atual / padrao** preserva uma
 variante personalizada e usa o padrao publicado apenas se o arquivo faltar.
 
-Arquivos `.ini` ja existentes, incluindo as preferencias e posicoes das janelas,
-sao preservados. Os arquivos substituidos ficam guardados em `.tsuka-updater`
-dentro do cliente. Um `.ini` que ainda nao existe recebe a configuracao padrao.
+As preferencias, conexao do servidor, macros e posicoes das janelas sao preservadas.
+`Localization.ini` e `TTFontInfo.ini` sao atualizados junto com as fontes da interface;
+os demais `.ini` existentes sao preservados. Um `.ini` ausente recebe o padrao.
+Os arquivos substituidos ficam em `.tsuka-updater/<data-id>/backup`, dentro do
+cliente, com os nomes e subpastas originais, como `system/Interface.u`.
 
 O atualizador requer Windows com .NET Framework 4.8 (normalmente presente no
 Windows 10/11). Se o proprio atualizador receber uma nova versao, baixe novamente
