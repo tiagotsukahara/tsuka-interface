@@ -7,13 +7,19 @@
 1. Feche o Lineage 2.
 2. Baixe `TsukaUpdater.exe` e coloque na raiz do seu cliente Interlude, ao lado da pasta `system` (fora dela).
 3. Abra **Tsuka Interface**. Ele detecta a pasta onde esta e verifica os arquivos automaticamente.
-4. Se quiser, escolha a animacao do soulshot (**Ativada/Desativada**) e a cor do toggle (**Roxo/Branco/Amarelo**).
+4. Em **Instalar**, escolha **Interface completa** ou **Somente efeitos de skills**. Na interface completa, tambem pode escolher a animacao do soulshot (**Ativada/Desativada**) e a cor do toggle (**Roxo/Branco/Amarelo**).
 5. Confira a lista de arquivos ausentes ou diferentes e o tamanho do download.
 6. Clique em **Atualizar** quando quiser instalar. A verificacao inicial e a troca das opcoes nao baixam nem substituem os arquivos do jogo.
 
 O programa baixa somente os arquivos ausentes ou diferentes. Nao precisa baixar
 novamente toda a interface a cada atualizacao. Nao e necessario ter conta no
 GitHub ou instalar o MEGA.
+
+**Somente efeitos de skills** baixa apenas os arquivos ausentes ou diferentes
+entre `animations/skill.usk`, `system/skillgrp.dat`, `system/LineageEffect.u`,
+`systextures/LineageEffectsTextures.utx`, `animations/LineageEffectMeshes.ukx` e
+`staticmeshes/LineageEffectsStaticmeshes.usx`. O arquivo `staticmeshes/M1.usx`
+fica fora dessa opcao. Ao reabrir, a selecao inicial e **Interface completa**.
 
 A cor do toggle vale para os indicadores de skills e soulshot. As opcoes ja
 instaladas sao reconhecidas ao abrir. **Manter atual / padrao** preserva uma
