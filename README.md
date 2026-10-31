@@ -17,9 +17,14 @@ GitHub ou instalar o MEGA.
 
 **Somente efeitos de skills** baixa apenas os arquivos ausentes ou diferentes
 entre `animations/skill.usk`, `system/skillgrp.dat`, `system/LineageEffect.u`,
-`systextures/LineageEffectsTextures.utx`, `animations/LineageEffectMeshes.ukx` e
+`system/LineageEffectsTextures.u`, `animations/LineageEffectMeshes.ukx` e
 `staticmeshes/LineageEffectsStaticmeshes.usx`. O arquivo `staticmeshes/M1.usx`
 fica fora dessa opcao. Ao reabrir, a selecao inicial e **Interface completa**.
+
+No instalador **1.6**, as texturas dos efeitos passaram para
+`system/LineageEffectsTextures.u`, evitando que uma copia `.u` antiga esconda os
+efeitos atualizados. A copia substituida recebe backup. Baixe novamente o EXE
+pelo link acima para usar **Somente efeitos de skills** com esse novo caminho.
 
 A cor do toggle vale para os indicadores de skills e soulshot. As opcoes ja
 instaladas sao reconhecidas ao abrir. **Manter atual / padrao** preserva uma
